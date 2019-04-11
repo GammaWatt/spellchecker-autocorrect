@@ -1,8 +1,8 @@
 spellchecker-autocorrect
 ========================
 
-Norvig inspired spellchecker and autocorrect implementation in javascript
+Spellchecker forked from WillSen/spellchecker-autocorrect and ported to rust.
 
+It's been modified to use any path file it's given as a corpus file (no error checking has been implemented), and it will take the results of whatever corpus file it's given and cache it in a "corpus_count.txt" file for quicker use later.
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/WillSen/spellchecker-autocorrect/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
+just call up `suggest(<dir>, "foo")` and it'll return it's best guess as a String.
