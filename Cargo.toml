@@ -1,0 +1,11 @@
+[package]
+name = "kludgy-port-spellcheck-autocorrect1"
+version = "0.1.0"
+authors = ["GammaWatt"]
+license = "Apache-2.0"
+edition = "2018"
+
+[dependencies]
+regex = "1.1.0"
+serde = "1.0.88"
+serde_json = "1.0.38"
